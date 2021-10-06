@@ -2,6 +2,8 @@
 
 Looking to contribute in this repository
 
+Register YourSelf with your GitHub User Id on [Hacktober Fest 2021](https://hacktoberfest.digitalocean.com) 
+
 ## Following are the guidelines for your Pull Request
 
     1. Create an issue
