@@ -1,3 +1,4 @@
+// program to Segregate even and odd numbers
 #include <iostream>
 using namespace std;
 void getArrangedEvenOdd(int arr[], int n)
@@ -12,12 +13,13 @@ void getArrangedEvenOdd(int arr[], int n)
         }
         j++;
     }
+    
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
 }
 int main()
 {
-    int arr[] = { 2 , 4 , 5 , 1 , 7 , 8 ,9 , 7};
+    int arr[] = {2 , 4 , 5 , 1 , 7 , 8 ,9 , 7};
     int n = sizeof(arr) / sizeof(int);
     getArrangedEvenOdd(arr, n);
     return 0;
