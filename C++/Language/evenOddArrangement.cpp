@@ -13,10 +13,11 @@ void getArrangedEvenOdd(int arr[], int n)
         }
         j++;
     }
-    
-    for (int i = 0; i < n; i++)
-        cout << arr[i] << " ";
-}
+for (int i = 0; i < n; i++)
+ {
+   cout << arr[i] << " ";
+ }
+
 int main()
 {
     int arr[] = {2 , 4 , 5 , 1 , 7 , 8 ,9 , 7};
