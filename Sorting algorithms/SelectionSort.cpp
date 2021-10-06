@@ -1,9 +1,8 @@
 // Time Complexity : O(n2)
 // Space Complexity	O(1)
-
-
 #include<iostream>
 using namespace std;
+
 void selectionsort(int arr[])
 {
     
@@ -18,11 +17,12 @@ void selectionsort(int arr[])
            }
        }
        int temp=arr[o];
-               arr[o]=arr[min_index];
-               arr[min_index]=temp;
+        arr[o]=arr[min_index];
+        arr[min_index]=temp;
    }
 
 }
+
 int main()
 {
     int arr[5];
@@ -34,17 +34,19 @@ int main()
 
     cout<<endl<<endl<<"Elements Before Sorting"<<endl;
 
-        for(int i=0;i<5;i++)
+    for(int i=0;i<5;i++)
     {
         cout<<arr[i];
     }
 
     selectionsort(arr);
 
-       cout<<endl<<endl<<"Elements After Sorting"<<endl;
+    cout<<endl<<endl<<"Elements After Sorting"<<endl;
 
-        for(int i=0;i<5;i++)
+    for(int i=0;i<5;i++)
     {
         cout<<arr[i];
     }
+    
+    return 0;
 }
