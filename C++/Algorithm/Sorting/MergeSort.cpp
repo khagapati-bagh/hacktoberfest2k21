@@ -5,11 +5,14 @@
 */
 
 
-// Time Complexity : O(NlogN)
-// Space Complexity : O(N)
+/* 
+  Consider N = number of elements in the input array
+  Time Complexity : O(NlogN)
+  Space Complexity : O(N)
+*/
 
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
