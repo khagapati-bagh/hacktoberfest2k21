@@ -1,3 +1,10 @@
+/*
+	Author : Shaleen Badola
+	Date : 07/10/2021
+	Description : Selection sort algorithm in c
+*/
+
+
 #include <stdio.h>
 
 //     Funtion for selection sort
@@ -22,12 +29,12 @@ void selection(int arr[], int n){
 // Function to print the array
 void printArr(int a[], int n){
 	int i;
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n; i++){
 		printf("%d ", a[i]);
+	}
 }
 
-int main()
-{
+int main(){
 	int a[] = { 12, 31, 25, 8, 32, 17 };
 
 	int n = sizeof(a) / sizeof(a[0]);
