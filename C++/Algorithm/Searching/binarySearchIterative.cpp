@@ -8,7 +8,7 @@
 // Time complexity : O(log n) where n is the number of elements to be processed
 // Auxiliary Space: O(1)
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
