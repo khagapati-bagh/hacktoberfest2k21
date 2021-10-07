@@ -73,6 +73,7 @@ for (int i = 0; i < n; i++) {
     You can use online code formatter for \
     [C/C++](https://codebeautify.org/cpp-formatter-beautifier). \
     [Java](https://codebeautify.org/javaviewer). \
-    :star: But make sure you meet the above criteria even though you use the formatter.
+    :star: But make sure you meet the above criteria even though you use the formatter. \
+    If you are using the above formater and static array then the array elements should be like `int arr [] = {1, 2, 3, 4, 5}`.
     
  ## Lets Start Now (All the best 👍)
