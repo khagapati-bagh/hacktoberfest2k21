@@ -7,7 +7,6 @@ int main()
     srand(time(0));  //random function call
     num = rand() % 100 + 1;   //to choose number from 1 to 100
     printf("Guess My Number Game\n\n");
-
     do
     {
         printf("Enter your guess (1-100) : ");
@@ -25,8 +24,6 @@ int main()
         {
             printf("\nCorrect! You got it in %d guesses!\n", tries);
         }
-		
     }while (guess != num);
-
     return 0;
 }
