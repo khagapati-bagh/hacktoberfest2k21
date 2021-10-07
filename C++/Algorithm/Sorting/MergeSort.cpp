@@ -30,6 +30,10 @@ void merge_subarrays(int array[], int start, int middle, int end) {
 
   int i = 0, j = 0, k = start;
 
+  
+  // Utill we reach the either end of subarrays, pick
+  // larger among elements of left and right  and place them in coorect position in array
+  
   while (i < lsize && j < rsize) {
     if (left[i] <= right[j]) {
       array[k] = left[i];
@@ -64,6 +68,7 @@ void mergeSort(int array[], int start_index, int end_index) {
     // Array is divided into two subarrays from middle index
     int middle = (start_index + end_index) / 2;
 
+    // Sort the two halves
     mergeSort(array, start_index, middle);
     mergeSort(array, middle + 1, end_index);
 
