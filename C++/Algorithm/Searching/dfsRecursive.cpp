@@ -15,7 +15,7 @@ void DFSrecursive(int grid[][4],int row,int col,bool visited[][4]) {
     int length = 4;
     int height = 4;
 
-     if (row < 0 || col < 0 || row >= length || col >= height || visited[row][col]){
+     if (row < 0 || col < 0 || row >= length || col >= height || visited[row][col]) {
          return;
      }
            
@@ -52,4 +52,6 @@ int main() {
 
     cout <<"The Depth first traversal to the matrix is : ";
     DFS(grid);
+
+    return 0;
 }
