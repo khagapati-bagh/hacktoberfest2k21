@@ -9,8 +9,9 @@ class SumOfFibonacciSeries {
   // Computing the value of first fibonacci series
   // and storing the sum of even indexed numbers
   static int Fib_Even_Sum(int N) {
-    if (N <= 0)
-      return 0;
+    if (N <= 0) {
+      return 0; 
+    }
 
     int fib[] = new int[2 * N + 1];
     fib[0] = 0;
@@ -24,8 +25,9 @@ class SumOfFibonacciSeries {
       fib[j] = fib[j - 1] + fib[j - 2];
 
       // Only considering even indexes
-      if (j % 2 == 0)
+      if (j % 2 == 0) {
         s += fib[j];
+    } 
     }
 
     return s;
