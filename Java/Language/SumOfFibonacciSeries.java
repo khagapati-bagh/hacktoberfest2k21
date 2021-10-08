@@ -1,5 +1,7 @@
-// Java Program to find even sum of
-// fibonacci Series Till number N
+/*Author : Raviteja
+        Date : 08/10/2021
+        Description : This code finds even sum of fibonacci series till number n
+*/
 import java.io.*;
   
 class SumOfFibonacciSeries {
