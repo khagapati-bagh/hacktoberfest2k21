@@ -139,7 +139,7 @@ int main() {
     cout<< "searching for 10. found? " << (singleLinkedList.search(10) ? "Yes": "No") <<endl;
     cout<< "searching for 5. found? " << (singleLinkedList.search(5) ? "Yes" : "No") <<endl;
     singleLinkedList.insertAtBeginning(1);
-    
+
     //Display current list
     singleLinkedList.displayList();
     return 0;
