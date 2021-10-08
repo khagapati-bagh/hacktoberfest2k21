@@ -1,6 +1,6 @@
 //Java
 /*
-    Author : chilling_gamer
+    Author : Chilling_gamer
     Date : Date format 10/09/2021
     Description : Double Linked List in Java.
 */
