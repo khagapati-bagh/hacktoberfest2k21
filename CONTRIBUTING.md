@@ -69,7 +69,8 @@ for (int i = 0; i < n; i++) {
     cout << i <<" ";                    // ✅.
 }
 ```
-8. Optional Step: 
+8. #### `*` Don't forgot to add new line at the end of your code.
+9. Optional Step: 
     You can use online code formatter for \
     [C/C++](https://codebeautify.org/cpp-formatter-beautifier). \
     [Java](https://codebeautify.org/javaviewer). \
