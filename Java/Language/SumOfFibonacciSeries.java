@@ -1,5 +1,5 @@
 /*Author: Raviteja
-  Date  : 08/10/202
+  Date: 08/10/202
   Description: This code finds even sum of fibonacci series till number n
 */
 import java.io.*;
