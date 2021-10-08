@@ -1,6 +1,7 @@
-/* Author : Raviteja 
-   Date : 08/10/2021 
-   Description : Java code for finding leap-year.
+/* Author: Raviteja 
+   Date: 08/10/2021 
+   Description: Java code for finding leap-year. 
+*/
 //Importing Classes/Files
 import java.io.*;
 
