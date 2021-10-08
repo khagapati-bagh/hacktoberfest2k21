@@ -4,6 +4,11 @@
     Description : Depth-first search (DFS) is an algorithm for traversing elements in 2D Matrix
 */
 
+/* 
+    Time Complexity : O(M*N)
+    Space Complexity : O(M*N)
+    here, M is the number of rows and N is the number of columns
+*/
 
 #include <bits/stdc++.h>
 
