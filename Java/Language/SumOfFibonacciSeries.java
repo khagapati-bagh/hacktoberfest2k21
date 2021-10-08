@@ -1,6 +1,7 @@
-/*Author: Raviteja
-  Date: 08/10/202
-  Description: This code finds even sum of fibonacci series till number n
+/*
+Author: Raviteja
+Date: 08/10/202
+Description: This code finds even sum of fibonacci series till number n
 */
 import java.io.*;
 
@@ -25,8 +26,8 @@ class SumOfFibonacciSeries {
       fib[j] = fib[j - 1] + fib[j - 2];
 
       // Only considering even indexes
-      if (j % 2 == 0) {
-        s += fib[j];
+  if (j % 2 == 0) {
+    s += fib[j];
     } 
     }
 
