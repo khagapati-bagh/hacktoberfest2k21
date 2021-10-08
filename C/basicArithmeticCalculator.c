@@ -1,5 +1,8 @@
 // basic arithmetic calculator + - * / %
 
+
+
+
 #include <stdio.h>
 
 int main() {
@@ -27,6 +30,6 @@ int main() {
     default:
       printf("operator is not correct");
   }
-
+  printf("\n");
   return 0;
 }
