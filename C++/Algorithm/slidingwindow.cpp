@@ -2,7 +2,7 @@
 
  Author : Aman Agarwal
  Date : 08/10/2021
- escription : Sliding Window Algorithm and it's Application
+ Description : Sliding Window Algorithm and it's Application
 
  I used Sliding Window Algorithm to
  solve a CodeForces Division 2 Question.
@@ -41,9 +41,10 @@ int main() {
 			int digit = s[i] - 48;//converting character to digit
 			counter[digit]++;//adding to frequency
 
-			while(counter[s[l]-48]>1) 
-				counter[s[l]-48]--,l++; /*using Sliding Window here
-				Removing last element and adding the next element*/;
+			while(counter[s[l]-48]>1) {
+				counter[s[l]-48]--,l++; //using Sliding Window here, Removing last element and adding the next element
+			}  
+				
 
 			if(counter[1]&&counter[2]&&counter[3]) {
 				ans=min(ans,i-l+1);
