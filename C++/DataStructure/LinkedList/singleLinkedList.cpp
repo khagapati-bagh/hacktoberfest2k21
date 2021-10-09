@@ -1,6 +1,8 @@
+
 /*
-C++ program to implement single linked list
-Author: saurabh042
+        Author : saurabh042
+        Date : 09/10/2021
+        Description : C++ program to implement single linked list
 */
 #include<bits/stdc++.h>
 
@@ -22,8 +24,8 @@ class SingleLinkedList {
 
         void insertAtEnd(int val) {
             Node *newNode = new Node;
-            newNode->val = val;
-            newNode->next = NULL;
+            newNode -> val = val;
+            newNode -> next = NULL;
 
             //If head is null i.e. list is empty assign newNode as head
             if(head == NULL){
@@ -32,18 +34,18 @@ class SingleLinkedList {
             else {
                 Node *temp = head;
                 //Loop till end of the list is reached
-                while(temp->next != NULL) {
-                    temp= temp ->next;
+                while(temp -> next != NULL) {
+                    temp = temp ->next;
                 }
                 //Point temp -> next to newNode
-                temp->next = newNode;
+                temp -> next = newNode;
             }
         }
 
         void insertAtBeginning(int val) {
             Node *newNode = new Node;
-            newNode->val = val;
-            newNode->next = NULL;
+            newNode -> val = val;
+            newNode -> next = NULL;
 
             //If head is null i.e. list is empty assign newNode as head
             if(head == NULL){
@@ -51,7 +53,7 @@ class SingleLinkedList {
             } 
             else {
                 //point next node of newNode to head and make newNode as head
-                newNode->next = head;
+                newNode -> next = head;
                 head = newNode;
             }
         }
@@ -60,10 +62,10 @@ class SingleLinkedList {
             Node *temp = head;
             //Traverse the list and see if val = valToSearch. If found return true else false
             while (temp != NULL) {
-                if(temp->val == valToSearch) {
+                if(temp -> val == valToSearch) {
                     return true;
                 }
-                temp = temp->next;
+                temp = temp -> next;
             }
             //Not found so far. Return false
             return false;
@@ -74,8 +76,8 @@ class SingleLinkedList {
             int i = 0;
             cout <<"Displaying list: ";
             while(temp != NULL){
-                cout<<temp->val <<" ";
-                temp = temp->next;
+                cout<< temp -> val <<" ";
+                temp = temp -> next;
                 ++i;
             }
             cout <<"\nCurrent list size: "<< i<< endl;
@@ -84,9 +86,9 @@ class SingleLinkedList {
         void remove(int valToRemove) {
             cout << "Removing node with value: "<<valToRemove <<endl;
             // check if val is present in head
-            if (head->val == valToRemove) {
+            if (head -> val == valToRemove) {
                 Node *temp = head;
-                head = head->next;
+                head = head -> next;
                 delete temp;
                 cout <<"Removed node with value: "<<valToRemove<<endl;
                 return;
@@ -95,14 +97,14 @@ class SingleLinkedList {
             Node *temp = head;
             while( temp -> next != NULL) {
                 // if next node's data is to be deleted
-                if( temp->next->val == valToRemove){
-                    Node * nodeToRemove = temp-> next;
-                    temp->next = nodeToRemove ->next;
+                if( temp -> next -> val == valToRemove){
+                    Node * nodeToRemove = temp -> next;
+                    temp -> next = nodeToRemove -> next;
                     delete nodeToRemove;
                     cout <<"Removed node with value: "<<valToRemove<<endl;
                     return;
                 }
-                temp = temp->next;
+                temp = temp -> next;
             }
             //valToDelete not found
             cout <<"Node with value to be deleted not found."<<endl;
