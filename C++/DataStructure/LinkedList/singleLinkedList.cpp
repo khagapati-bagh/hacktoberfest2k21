@@ -1,6 +1,6 @@
 
 /*
-        Author : saurabh042
+        Author : Saurabh Singh 
         Date : 09/10/2021
         Description : C++ program to implement single linked list
 */
