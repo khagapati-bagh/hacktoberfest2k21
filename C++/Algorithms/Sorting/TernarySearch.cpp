@@ -1,16 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/* Time Complexity *
---->  O(log3 n)
-where n is the size of the array
- * Space Complexity *
+/* 
+    Author : Viraj Shitole 
+    Date : 09 / 10 / 2021
+    Description : ternary search algorithm with time and space complexity.
+    
+ */
+
+/* 
+    * Time Complexity *
+---> O(log3 n)
+     where n is the size of the array
+    * Space Complexity *
 ---> O(1)
 */
 
  
-int ternarySearch(int l, int r, int key, int ar[])
-{
+int ternarySearch(int l, int r, int key, int ar[]){
     if (r >= l) {
  
         
@@ -36,11 +43,11 @@ int ternarySearch(int l, int r, int key, int ar[])
     return -1;
 }
  
-int main()
-{
+int main(){
     int n ,l, r, p, key;
     cin >> n ;
     int *ar = new int[n] ;
+ 
     // taking input array
     for(int i = 0 ; i < n ;i++){
         cin >> ar[i] ;
