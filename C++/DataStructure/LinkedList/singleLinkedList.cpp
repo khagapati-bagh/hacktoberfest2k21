@@ -1,8 +1,8 @@
 
 /*
-        Author : Saurabh Singh 
-        Date : 09/10/2021
-        Description : C++ program to implement single linked list
+Author : Saurabh Singh 
+Date : 09/10/2021
+Description : C++ program to implement single linked list
 */
 #include<bits/stdc++.h>
 
