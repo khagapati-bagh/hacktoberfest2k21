@@ -1,5 +1,8 @@
-# Bubble sort in Python
-
+"""
+Author : Siddharth Sharma
+Date : 09/10/2021
+Description : Bubble Sort algorithm implementation in Python.
+"""
 def bubbleSort(array):
     
     # loop to access each array element
@@ -24,3 +27,4 @@ if __name__ == "__main__":
     print("Enter integers and separate with commas (example : 1, 2, 3, 4)")
     elements = list(map(int, input().split(',')))
     print(bubbleSort(elements))
+    
