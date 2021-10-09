@@ -48,17 +48,11 @@ int isArmstrong(int x) {
         return 0;
     }
 }
-
+// Modifying some files adding user input  
 int main() {
-    int x = 153;
-    if (isArmstrong(x) == 1) {
-        printf("True\n");
-    }
-    else {
-        printf("False\n");
-    }
- 
-    x = 1253;
+    int x;
+    printf("Enter  number for checking armstrong number:");
+    scanf("%d",&x);
     if (isArmstrong(x) == 1) {
         printf("True\n");
     }

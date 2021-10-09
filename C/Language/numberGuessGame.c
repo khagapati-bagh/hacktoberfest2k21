@@ -1,5 +1,8 @@
 //A number guessing game by Akshat Pandey
 #include <stdio.h>
+// added two library functions stdlib.h and time.h
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
    int num, guess, tries = 0;

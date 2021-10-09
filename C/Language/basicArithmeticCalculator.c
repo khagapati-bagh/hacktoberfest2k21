@@ -25,7 +25,13 @@
       printf("%.1lf",first * second);
       break;
     case '/':
+    // modified
+      if (second==0)
+        printf("Infinite");
+      else{
       printf("%.1lf",first / second);
+      }
+    // if second ==0 print infinite
       break;
     // If operator doesn't match any case constant
     default:
