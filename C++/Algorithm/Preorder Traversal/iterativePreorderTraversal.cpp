@@ -1,31 +1,35 @@
+/*
+  Author : Akshay Dhayal  
+  Date : 09/10/2021                 
+  Description : Iterative Preorder Traversal of Binary tree
+    */
+
 #include <iostream>
 #include <stack>
 using namespace std;
- 
-struct Node
-{
+
+// Data structure to store a binary tree node 
+struct Node{
     int data;
     Node *left, *right;
  
-    Node(int data)
-    {
+    Node(int data){
         this->data = data;
         this->left = this->right = nullptr;
     }
 };
  
 // Iterative function for preorder traversal 
-void preorderIterative(Node* root)
-{
+void preorderIterative(Node* root){
     // return if the tree is empty
     if (root == nullptr)
     return;
  
     stack<Node*> stack;
     stack.push(root);
-
-    while (!stack.empty())
-    {
+    // loop till stack is empty
+    while (!stack.empty()){
+        // pop a node from the stack and print it
         Node* curr = stack.top();
         stack.pop();
  
@@ -43,21 +47,17 @@ void preorderIterative(Node* root)
 }
  
  
-int main()
-{
-    /* Construct the following tree
-               1
-             /   \
-            /     \
-           2       3
-          /      /   \
-         /      /     \
-        4      5       6
-              / \
-             /   \
-            7     8
+int main(){
+    /* Our Input Binary tree
+      1 - 2,3
+      2 - 4,null
+      3 - 5,6
+      4 - NULL,NULL
+      5 - 7,8
+      6 - NULL,NULL
+      7 - NULL,NULL
+      8 - NULL,NULL
     */
- 
     Node* root = new Node(1);
     root->left = new Node(2);
     root->right = new Node(3);
