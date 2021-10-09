@@ -20,3 +20,7 @@ def bubbleSort(array):
 
     return array
 
+if __name__ == "__main__":
+    print("Enter integers and separate with commas (example : 1, 2, 3, 4)")
+    elements = list(map(int, input().split(',')))
+    print(bubbleSort(elements))
