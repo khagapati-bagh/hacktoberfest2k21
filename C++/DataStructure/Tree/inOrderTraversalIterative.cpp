@@ -2,6 +2,9 @@
     Author : Vishal Ambavade
     Date : Date format 10/10/2021
     Description : C++ program to print inorder traversal of tree using iterative approach.
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+    where n is the number of nodes in a binary tree
 */
 
 #include <iostream>
