@@ -70,8 +70,7 @@ for (int i = 0; i < n; i++) {
 }
 ```
 8. #### `*` Don't forgot to add new line at the end of your code.
-9. Optional Step: 
-    You can use online code formatter for \
+9. You can use online code formatter for \
     [C/C++](https://codebeautify.org/cpp-formatter-beautifier). \
     [Java](https://codebeautify.org/javaviewer). \
     :star: But make sure you meet the above criteria even though you use the formatter. \
