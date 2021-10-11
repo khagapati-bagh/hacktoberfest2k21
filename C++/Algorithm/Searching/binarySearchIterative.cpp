@@ -31,19 +31,18 @@ int binarysearch(vector < int > & arr, int ele) {
   }
   return -1;
 }
-
-int main() {
-  vector<int> arr{ 2, 3, 5, 10, 35, 40 };   //sorted array
-
-  int element = 10; // element to find
-
-  int result = binarysearch(arr, element);
-
-  if (result == -1) { // if element not present in array.
-    cout << "Element is not present in array";
-  } else {
-    cout << "Element is present at index " << result;
+int main()
+{
+  vector<int> arr{2,3,5,10,35,40};  //sorted array
+  int element=10; //element to find
+  int result= binarysearch(arr,element);
+  if(result==-1) //if element is not present
+  {
+    cout<<"Element is not present in array.";
   }
-
-  return 0;
+  else
+  {
+    cout<<"Element is present at index-"<<result;
+  }
+  return (0);
 }
