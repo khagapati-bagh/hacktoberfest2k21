@@ -11,7 +11,7 @@ Register YourSelf with your GitHub User Id on [Hacktober Fest 2021](https://hack
 2. [Fork](https://help.github.com/en/articles/fork-a-repo) :fork_and_knife: it.
 3. Create [Branch](https://help.github.com/en/articles/about-branches) :herb: with your feature `<feature>`.
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
-5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
+5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile: and mentioned the issue id in it.
 6. Always follow the style guide (see below).
 7. Enjoy contributing :yum:.
 8. If you have any doubts, open an [issue](https://github.com/khagapati-bagh/hacktoberfest2k21/issues/new). 
